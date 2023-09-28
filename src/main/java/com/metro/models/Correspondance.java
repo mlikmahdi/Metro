@@ -9,8 +9,9 @@ public class Correspondance extends Station {
 
     private List<Ligne> lignes;
 
-    public Correspondance(String name, String description, List<Ligne> lignes) {
-        super(name, description);
+    public Correspondance(String name, String description, int position, List<Ligne> lignes) {
+        super(name, description, position);
         this.lignes = lignes;
     }
+
 }
