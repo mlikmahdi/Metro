@@ -1,0 +1,30 @@
+{
+  "ligne": "RER A",
+  "stations": [
+    {
+      "nom": "La Défense",
+      "correspondances": ["Ligne 1"],
+      "position": 1
+    },
+    {
+      "nom": "Charles de Gaulle - Étoile",
+      "correspondances": ["Ligne 1", "Ligne 2", "Ligne 6"],
+      "position": 2
+    },
+    {
+      "nom": "Auber",
+      "correspondances": [],
+      "position": 3
+    },
+    {
+      "nom": "Châtelet - Les Halles",
+      "correspondances": ["Ligne 1", "Ligne 4", "Ligne 11", "Ligne 14", "RER B", "RER D"],
+      "position": 4
+    },
+    {
+      "nom": "Gare de Lyon",
+      "correspondances": ["Ligne 1", "Ligne 14", "RER D"],
+      "position": 5
+    }
+  ]
+}
